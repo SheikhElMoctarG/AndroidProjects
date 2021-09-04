@@ -21,16 +21,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 alertDialog = new AlertDialog.Builder(MainActivity.this);
-                alertDialog.setTitle(R.string.title);
-                alertDialog.setMessage(R.string.message);
+                alertDialog.setTitle(getResources().getString(R.string.title));
+                alertDialog.setMessage(getResources().getString(R.string.message));
                 alertDialog.setCancelable(false);
-                alertDialog.setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
+                alertDialog.setPositiveButton(getResources().getString(R.string.yes), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         dialogInterface.cancel();
                     }
                 });
-                alertDialog.setNegativeButton(R.string.no, new DialogInterface.OnClickListener() {
+                alertDialog.setNegativeButton(getResources().getString(R.string.no), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         MainActivity.this.finish();
