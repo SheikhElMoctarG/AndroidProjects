@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Toggle Button</string>
+    <string name="network_status">Network Status</string>
+</resources>
