@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">AlertDialog</string>
+    <string name="title">Hi!!</string>
+    <string name="message">How are you today</string>
+    <string name="yes">Hey</string>
+    <string name="no">Thank you</string>
+
+
 </resources>
