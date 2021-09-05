@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Activity to auther activity</string>
+    <string name="second_ac">Second Activity</string>
+    <string name="third_ac">Third Activity</string>
+</resources>
