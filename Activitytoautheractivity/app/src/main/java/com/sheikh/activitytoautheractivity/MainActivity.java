@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,SecondActivity.class);
+                intent.putExtra("name","Sheikh El-Moctar");
+                intent.putExtra("age","16");
                 startActivity(intent);
             }
         });
@@ -27,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this,ThirdActivity.class);
+                intent.putExtra("name","Taqee El-Moctar");
+                intent.putExtra("age","23");
                 startActivity(intent);
             }
         });
