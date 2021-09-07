@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         listitems = new ArrayList<>();
-        for (int a = 1; a<8; a++){
-            Listitem item = new Listitem("Sheikh EL-Moctar","He is a Software Engineer");
+        for (int a = 1; a<15; a++){
+            Listitem item = new Listitem("Sheikh EL-Moctar","He is a Software Engineer","7/9/2021");
             listitems.add(item);
         }
         adapter = new MyAdapter(this,listitems);

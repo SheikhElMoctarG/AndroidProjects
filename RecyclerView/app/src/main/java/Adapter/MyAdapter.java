@@ -35,6 +35,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         Listitem item = listitems.get(position);
         holder.title.setText(item.getTitle());
         holder.description.setText(item.getDescription());
+        holder.date.setText(item.getDate());
     }
 
     @Override
@@ -45,11 +46,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     public class ViewHolder extends RecyclerView.ViewHolder{
         private TextView title;
         private TextView description;
+        private TextView date;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             title = itemView.findViewById(R.id.title);
             description = itemView.findViewById(R.id.description);
+            date = itemView.findViewById(R.id.date);
         }
     }
 }
