@@ -8,7 +8,7 @@ public class Utils {
 
     public static final String KEY_ID = "id";
     public static final String KEY_NAME = "name";
-    public static final String KEY_LNAME = "lname";
     public static final String KEY_ADDRESS = "address";
     public static final String KEY_AGE = "age";
+
 }

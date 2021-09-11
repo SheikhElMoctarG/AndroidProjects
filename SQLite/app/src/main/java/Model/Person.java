@@ -1,19 +1,26 @@
 package Model;
 
 public class Person {
+    private int id;
     private String name;
-    private String lname;
     private String address;
     private int age;
+
 
     public Person() {
     }
 
-    public Person(String name, String lname, String address, int age) {
+    public Person(String name, int age, String address) {
         this.name = name;
-        this.lname = lname;
         this.address = address;
         this.age = age;
+    }
+
+    public Person(int id, String name, int age, String address) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.address = address;
     }
 
     public String getName() {
@@ -24,14 +31,6 @@ public class Person {
         this.name = name;
     }
 
-    public String getLname() {
-        return lname;
-    }
-
-    public void setLname(String lname) {
-        this.lname = lname;
-    }
-
     public String getAddress() {
         return address;
     }
@@ -40,7 +39,13 @@ public class Person {
         this.address = address;
     }
 
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public int getAge() {
         return age;
