@@ -114,5 +114,11 @@ Person person = new Person();
         return response;
     }
 
+    public  void deletePerson(Person person){
+        SQLiteDatabase database = this.getWritableDatabase();
+        database.delete(Utils.TABLE_NAME,Utils.KEY_ID+"=?",new String[]{String.valueOf(person.getId())});
+        database.close();
+    }
+
 
 }
