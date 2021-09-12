@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 //        int p2 = db.updatePerson(p);
 //        String info2 = "ID: "+p.getId()+ " Name: "+ p.getName() + " Address: "+ p.getAddress() + " Age: "+ p.getAge();
 //        Log.d("After update===> ",info2);
+        Log.d("personNumber", String.valueOf(db.getNumPerson()));
 
     }
 }

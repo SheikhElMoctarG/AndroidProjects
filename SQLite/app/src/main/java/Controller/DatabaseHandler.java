@@ -120,5 +120,11 @@ Person person = new Person();
         database.close();
     }
 
+    public int getNumPerson(){
+        String getAll = "SELECT * FROM "+Utils.TABLE_NAME;
+        SQLiteDatabase database = this.getReadableDatabase();
+        Cursor cursor = database.rawQuery(getAll,null);
+        return cursor.getCount();
 
+    }
 }
