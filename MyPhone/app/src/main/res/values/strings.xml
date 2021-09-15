@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Phone</string>
+    <string name="number_hint">Put Number phone</string>
+</resources>
