@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">All News</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="name_ar">أخر الأخبار الموريتانية</string>
+    <string name="description_noInternet">انت غير متصل بالانترنت</string>
+    <string name="try_agian">إعادة المحاولة </string>
+    <string name="loading_text">جاري التحميل ...</string>
+    <string name="big_text_wrong_error404">تعذر الإتصال بالخوادم</string>
+    <string name="little_text_wrong_error404">أحيانا تعود المشكلة للسقوط الخادم</string>
+    <string name="call_to_developer">التواصل مع المطور</string>
+    <string name="after10min">منذو 10 دقائق</string>
+    <string name="title_example">وزير الداخلية يؤكد على قوة الدولة..</string>
+    <string name="description_example">هنا سيكونو الوصف الخاص بالمقال والذي تم سحبه الموقع الخاص بالمقال تسبنبنبيمستنان</string>
+    <!-- Date Util -->
+    <string name="date_util_term_less">اقل من</string>
+    <string name="date_util_term_a">واحد</string>
+    <string name="date_util_term_an">واحد</string>
+
+    <string name="date_util_unit_second">ثانية</string>
+    <string name="date_util_unit_seconds">ثواني</string>
+    <string name="date_util_unit_minute">دقيقة</string>
+    <string name="date_util_unit_minutes">دقائق</string>
+    <string name="date_util_unit_hour">ساعة</string>
+    <string name="date_util_unit_hours">ساعات</string>
+    <string name="date_util_unit_day">يوم</string>
+    <string name="date_util_unit_days">ايام</string>
+    <string name="date_util_unit_month">شهر</string>
+    <string name="date_util_unit_months">اشهر</string>
+    <string name="date_util_unit_year">سنة</string>
+    <string name="date_util_unit_years">سنوات</string>
+
+    <string name="date_util_prefix_lt">اقل من 1</string>
+    <string name="date_util_prefix_about">حوالي</string>
+    <string name="date_util_prefix_over">over</string>
+    <string name="date_util_prefix_almost">اكثر</string>
+
+    <string name="date_util_suffix">منذو</string>
+</resources>
