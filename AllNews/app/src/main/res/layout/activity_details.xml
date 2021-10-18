@@ -3,12 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
 
-    <LinearLayout
+    <include
+        layout="@layout/toolbar_details"/>
+    <include
         android:id="@+id/pageEmpty"
+        layout="@layout/home_details"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="900dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -17,10 +21,5 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar_layout"
         app:layout_constraintVertical_bias="0.822">
 
-    </LinearLayout>
-
-    <include
-        android:id="@+id/toolbar_layout"
-        layout="@layout/toolbar" />
-
+    </include>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,7 @@
 package Controller;
 
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.sheikh.allnews.DetailsActivity;
 import com.sheikh.allnews.R;
 import com.squareup.picasso.Picasso;
 
@@ -47,6 +49,7 @@ public class Adepter extends RecyclerView.Adapter<Adepter.PostView> {
             holder.date.setText(timeAgo.getTimeAgo(news.getDate(),context));
             holder.nameSource.setText(news.getNameSource());
             holder.text = news.getTitle();
+            holder.link = news.getLink();
             Picasso.get().load(iconSite(news.getLink())).into(holder.iconSource);
 
     }
@@ -59,6 +62,7 @@ public class Adepter extends RecyclerView.Adapter<Adepter.PostView> {
     public class PostView extends RecyclerView.ViewHolder {
         TextView title,description,date, nameSource;
         ImageView image, iconSource;
+        String link;
         String text;
         public PostView(@NonNull View itemView) {
             super(itemView);
@@ -69,7 +73,6 @@ public class Adepter extends RecyclerView.Adapter<Adepter.PostView> {
             nameSource = itemView.findViewById(R.id.nameSource);
             iconSource = itemView.findViewById(R.id.iconSource);
             LinearLayout speechButton = itemView.findViewById(R.id.speechButton);
-            News news = new News();
             TalkText talkText = new TalkText();
             talkText.prepare(context);
             speechButton.setOnClickListener(new View.OnClickListener() {
@@ -79,8 +82,48 @@ public class Adepter extends RecyclerView.Adapter<Adepter.PostView> {
                     talkText.talk(text);
                 }
             });
+            clickText(title,description,nameSource);
+            clickImage(image);
         }
+        void click(){
+            Intent intent = new Intent(context, DetailsActivity.class);
+            intent.putExtra("title",title.getText().toString());
+            intent.putExtra("ago",date.getText().toString());
+            intent.putExtra("source",nameSource.getText().toString());
+            intent.putExtra("link", link);
+            context.startActivity(intent);
+        }
+        void clickText(TextView textView1, TextView textView2, TextView textView3){
+            textView1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    click();
+                }
+            });
+            textView2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    click();
+                }
+            });
+            textView3.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    click();
+                }
+            });
+        }
+        void clickImage(ImageView image){
+            image.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    click();
+                }
+            });
+        }
+
     }
+
     int iconSite(String link){
         if (link.startsWith("https://www.saharamedias.net/")){
             return R.drawable.saharamedias_icon;
