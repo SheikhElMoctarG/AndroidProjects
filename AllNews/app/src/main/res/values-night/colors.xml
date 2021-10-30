@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="purple_200">#FFBB86FC</color>
-    <color name="status_splashscreen">#FFC107</color>
-    <color name="status_homeActivity">#fff</color>
-    <color name="colorTextHint">#ACA8A8</color>
-
+    <color name="status_splashscreen">#2F3640</color>
+    <color name="status_homeActivity">#2F3640</color>
+    <color name="colorTextHint">#F8F7F7</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#0E0E0E</color>
-    <color name="gray_500">#EFECEC</color>
+    <color name="teal_200">#FDFCFC</color>
+    <color name="gray_500">#9D9FA7</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="ak">#44BD32</color>
     <color name="circleColor">#40739E</color>
     <color name="circleColor2">#487EB0</color>
     <color name="circleColor3">#0096E5</color>
-    <color name="colorBackgroundLinearPosts">#F4F4F4</color>
+    <color name="colorBackgroundLinearPosts">#75849A</color>
 </resources>

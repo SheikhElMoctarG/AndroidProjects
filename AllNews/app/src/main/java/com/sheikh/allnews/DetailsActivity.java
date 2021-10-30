@@ -39,7 +39,7 @@ public class DetailsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_details);
         if (Build.VERSION.SDK_INT >= 21) {
             Window window = this.getWindow();
-            window.setStatusBarColor(getResources().getColor(R.color.white));
+            window.setStatusBarColor(getResources().getColor(R.color.status_homeActivity));
         }
         getSupportActionBar().hide();
         extras = getIntent().getExtras();
@@ -69,15 +69,7 @@ public class DetailsActivity extends AppCompatActivity {
             }
         });
         new doIT().execute();
-//        try {
-//            Document doc = Jsoup.connect("https://en.wikipedia.org/").get();
-//            String codeHtml = doc.text();
-//            Elements text = doc.select("clearfix p");
-//            Elements image = doc.select("featured-area");
-//
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+
 
     }
     public class doIT extends AsyncTask<Void,Void,Void> {
@@ -124,7 +116,7 @@ public class DetailsActivity extends AppCompatActivity {
                 String co = Base64.encodeToString(codeHtml.getBytes(), Base64.NO_PADDING);
                 webView.loadData(co, "text/html", "base64");
             } else {
-                String html = "<html dir=\"rtl\"> <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"> <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin> <link href=\"https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap\" rel=\"stylesheet\"> <body> <div align=\"center\"> <h1><span style=\"color: rgb(250, 7, 7);\">خطأ ما حدث:</span> <br> هذه المشكلة نتاجة عن تعطل الوصول الموقع الاخبار المستقلة</h1> </div> </body> <style> body{ font-family: 'Almarai', sans-serif; width: auto; padding: 10px; } </style> </html>";
+                String html = "<html dir=\"rtl\"> <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"> <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin> <link href=\"https://fonts.googleapis.com/css2?family=Almarai:wght@300&display=swap\" rel=\"stylesheet\"> <body> <div align=\"center\"> <h1><span style=\"color: rgb(250, 7, 7);\">خطأ ما حدث:</span> <br> هذه المشكلة نتاجة عن تعطل الوصول للموقع</h1> </div> </body> <style> body{ font-family: 'Almarai', sans-serif; width: auto; padding: 10px; } </style> </html>";
                 String co = Base64.encodeToString(html.getBytes(),Base64.NO_PADDING);
                 webView.loadData(co, "text/html", "base64");
             }

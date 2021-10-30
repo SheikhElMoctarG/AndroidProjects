@@ -10,6 +10,12 @@
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/drawable/rounded.xml" value="0.2203125" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/drawable/rounded_loding.xml" value="0.2203125" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/drawable/shadow_toolbar.xml" value="0.19661458333333334" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout-large/activity_details.xml" value="0.16302083333333334" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout-large/error_server.xml" value="0.25" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout-large/home_details.xml" value="0.2" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout-large/plan_post_view.xml" value="0.5" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout-large/toolbar.xml" value="0.25" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout-large/toolbar_details.xml" value="0.33" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout-w1240dp/activity_home.xml" value="0.11015625" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout-w936dp/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout-w936dp/toolbarDetails.xml" value="0.17421875" />
@@ -19,14 +25,15 @@
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/activity_main2.xml" value="0.17192982456140352" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/back_view.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/coustem_loading.xml" value="0.25" />
-        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/error_server.xml" value="0.25" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/error_server.xml" value="0.2" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/home.xml" value="0.15" />
-        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/home_details.xml" value="0.18" />
-        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/no_internet.xml" value="0.22" />
-        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/plan_post_view.xml" value="0.22" />
-        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/toolbar.xml" value="0.2" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/home_details.xml" value="0.2" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/no_internet.xml" value="0.2" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/plan_post_view.xml" value="0.33" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/toolbar.xml" value="0.300561797752809" />
         <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/toolbarDetails.xml" value="0.19765625" />
-        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/toolbar_details.xml" value="0.22" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/layout/toolbar_details.xml" value="0.25" />
+        <entry key="..\:/Users/lenovo/AndroidStudioProjects/AllNews/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11944444444444445" />
       </map>
     </option>
   </component>

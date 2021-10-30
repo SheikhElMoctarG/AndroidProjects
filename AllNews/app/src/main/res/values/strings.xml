@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">All News</string>
+    <string name="app_name">كل الأخبار</string>
+    <string name="titleCircleDark">الوضع الليلي</string>
+    <string name="descriptionCircleDark">لتقليل اجهاد العين يمكنك تفعيل الوضع اليلي والتبديل بين الاوضاع من هذا الزر</string>
+    <string name="titleCircleSpeechButton">نطق العنوان الياً</string>
+    <string name="descriptionCircleSpeechButton">يمكنك هذا الزر من نطق عنوان الخبر الياً للذو الاحتياجات الخاصة</string>
+    <string name="titleCircleLinearpost">مشاهدة تفاصيل الخبر</string>
+    <string name="descriptionCircleLinearpost">يمكنك الاطلاع على تفاصيل الخبر من هنا</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>

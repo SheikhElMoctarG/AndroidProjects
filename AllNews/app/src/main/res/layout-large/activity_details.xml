@@ -7,18 +7,12 @@
     tools:context=".DetailsActivity">
 
     <include
-        layout="@layout/toolbar_details"
-        app:layout_constraintBottom_toTopOf="@+id/pageEmpty"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        layout="@layout/toolbar_details"/>
     <include
         android:id="@+id/pageEmpty"
         layout="@layout/home_details"
         android:layout_width="match_parent"
-        android:layout_height="620dp"
+        android:layout_height="900dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

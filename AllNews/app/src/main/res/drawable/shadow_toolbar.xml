@@ -9,7 +9,7 @@
     <!-- White foreground. -->
     <item android:bottom="2dp" android:right="0dp">
         <shape>
-            <solid android:color="@android:color/white" />
+            <solid android:color="@color/status_homeActivity" />
             <corners android:radius="0dp" />
         </shape>
     </item>
